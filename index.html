@@ -89,7 +89,7 @@
             <ul class="dropdown">
                 <li><a href="#aslevel">AS Level</a></li>
                 <li><a href="#socialinfluence">Social Influence</a></li>
-                <li><a href="#values">Our Values</a></li>
+                <li><a href="#memory">Memory</a></li>
                 <li><a href="#aslevel">AS Level</a></li>
                 <li><a href="#mission">Our Mission</a></li>
                 <li><a href="#mission">Our Mission</a></li>
@@ -101,6 +101,58 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
+    <style>
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            background-color: #f4f4f4;
+        }
+    
+        nav ul li {
+            position: relative;
+        }
+    
+        nav a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+        }
+    
+        nav a:hover {
+            background-color: #cb6ce6;
+            color: white;
+        }
+    
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            list-style-type: none;
+            background-color: #f4f4f4;
+            padding: 0;
+            margin: 0;
+        }
+    
+        .dropdown li a {
+            padding: 10px 20px;
+            white-space: nowrap;
+        }
+    
+        .dropdown li a:hover {
+            background-color: #cb6ce6;
+            color: white;
+        }
+
+        li:hover .dropdown {
+            display: block;
+        }
+    </style>
+
     <style>
         h1 {
             text-align: center;
